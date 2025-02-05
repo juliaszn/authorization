@@ -8,17 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Welcome Back</h1>
+<h1>Please provide feedback on the service.</h1>
 <form method="post">
+    <label for="name"> Your name:
+        <input type="text" name="name" required>
+    </label>
+    <br><br>
     <label for="email"> Email:
-        <input type ="email" name="email" required>
+        <input type="email" name="email" required>
     </label>
     <br><br>
-    <label for="password"> Password:
-        <input type ="password" name="password" required>
+    <label for="message"> Message:
+        <input type="text" name="message" required>
     </label>
     <br><br>
-    <input type="submit" value="Login"
+    <input type="reset" value="Remove">
+    <input type="submit" value="Send">
 </form>
 </body>
 </html>
