@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dced19-1e0a-4658-9dd4-353c89b2391d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/authorization.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/feedback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/feedback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feedback/feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feedback/send_feedback.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedback.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\home\authorization\feedback" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,7 +80,7 @@
       <workItem from="1739086365038" duration="2055000" />
       <workItem from="1739118323938" duration="582000" />
       <workItem from="1739123090154" duration="63000" />
-      <workItem from="1739123235746" duration="3505000" />
+      <workItem from="1739123235746" duration="30542000" />
     </task>
     <servers />
   </component>

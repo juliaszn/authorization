@@ -1,4 +1,5 @@
 <?php
+session_start();
 global $connection;
 require_once('db.php');
 
@@ -11,8 +12,10 @@ if (empty($email) || empty($password)) {
     $sql = "SELECT * FROM `users` WHERE email='$email' AND password='$password'";
     $result = $connection->query($sql);
     if ($result->num_rows > 0) {
-       header('location: feedback.php');
+       header('location: /feedback/feedback.php');
     }
 else {
-    echo 'Incorrect login or password';
+    $_SESSION['error'] = 'Incorrect email or password';
+    header('location: index.php?error=1');
+    exit();
 }}

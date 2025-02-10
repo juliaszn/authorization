@@ -1,0 +1,18 @@
+
+body {
+    background-color: #f8f9fa;
+}
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.text-center{
+    margin-bottom: 30px;
+}
