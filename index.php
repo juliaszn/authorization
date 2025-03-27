@@ -24,7 +24,7 @@
     <?php
     session_start();
     if (isset($_SESSION['error'])) {
-        echo '<p style="color:#0b0b0b;">' . $_SESSION['error'] . '</p>';
+        echo '<p style="color:#0b0b0b;">' . htmlspecialchars($_SESSION['error'], ENT_QUOTES, 'UTF-8') . '</p>';
         unset($_SESSION['error']);
     }
     ?>

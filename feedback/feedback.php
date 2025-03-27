@@ -16,7 +16,7 @@
     <?php
     session_start();
     if (isset($_SESSION['success'])) {
-        echo '<h3 style="color:#4aa14b;">' . $_SESSION['success']. '</h3>';
+        echo '<h3 style="color:#4aa14b;">' . htmlspecialchars($_SESSION['success'], ENT_QUOTES, 'UTF-8') . '</h3>';
         unset($_SESSION['success']);
     }
     ?>
